@@ -1,5 +1,8 @@
+#! /usr/bin/env node
+//shabang
 import inquirer from "inquirer";
 import chalk from "chalk";
+console.log(chalk.bgGray("\\\ ROCK, PAPER AND SCISSOR GAME"));
 let answer = await inquirer.prompt([
     {
         name: "Player1",
