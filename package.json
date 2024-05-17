@@ -1,6 +1,6 @@
 {
   "name": "ooo-rock-paper-scissor-game-project-",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "This is simple rock, paper ,scissor game.",
   "main": "index.js",
   "type": "module",
