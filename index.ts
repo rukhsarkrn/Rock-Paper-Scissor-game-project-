@@ -4,7 +4,7 @@
 import inquirer from "inquirer";
 import chalk from "chalk";
 
-console.log(chalk.bgMagenta("\n***** ROCK, PAPER AND SCISSOR GAME *****\n"));
+console.log(chalk.bgMagenta("\n***** ROCK PAPER AND SCISSOR GAME *****\n"));
 
 let answer = await inquirer.prompt([{
          name:"Player1",
