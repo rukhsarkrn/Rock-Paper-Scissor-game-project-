@@ -3,8 +3,7 @@
 import inquirer from "inquirer";
 import chalk from "chalk";
 console.log(chalk.bgMagenta("\n***** ROCK, PAPER AND SCISSOR GAME *****\n"));
-let answer = await inquirer.prompt([
-    {
+let answer = await inquirer.prompt([{
         name: "Player1",
         message: (chalk.bgBlackBright.white("\n Player1 Choose Your Weapon")),
         type: "list",
@@ -15,8 +14,7 @@ let answer = await inquirer.prompt([
         message: (chalk.bgBlackBright.white("\n Player2 Choose your weapon")),
         type: "list",
         choices: ["Rock", "Paper", "Scissor"]
-    }
-]);
+    }]);
 if (answer.Player1 === answer.Player2) {
     console.log(chalk.red("\n ITS A TIE"));
 }
